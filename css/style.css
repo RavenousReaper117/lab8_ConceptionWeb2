@@ -1,0 +1,85 @@
+/*----------------------------------------------------------------------------
+    Reset
+----------------------------------------------------------------------------*/
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font: normal 18px/160% "PT sans", sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/*------------------------------------------------------------------------------
+   Base
+------------------------------------------------------------------------------*/
+
+body {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: bold;
+    font-style: normal;
+    color: #eca136;
+    background-color: rgb(9, 26, 33);
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+}
+/*------------------------------------------------------------------------------
+   Mise en page
+------------------------------------------------------------------------------*/
+
+/* Header */ 
+header{
+    width: 1000px;    
+    background-color: rgba(15, 38, 49, 0.95);
+    position: fixed;
+    left: calc(50% - 500px);
+    top: 0px;
+    z-index: 1000;
+    border-radius: 0 0 20px 20px;
+}
+
+header h1{
+    font-size: 40px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+
+/* Contenu */
+
+.contenu .wrapper {
+    max-width: 925px;
+    margin: 100px auto 0; 
+}
+
+.contenu img {
+    max-width: 100%;
+}
+
+.contenu ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 45px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contenu li {
+    background-color: rgb(15, 38, 49);
+    padding: 20px;
+    border-radius: 10px;
+}
+
