@@ -81,5 +81,18 @@ header h1{
     background-color: rgb(15, 38, 49);
     padding: 20px;
     border-radius: 10px;
+    position: relative;
 }
 
+.bouton {
+    position: absolute;
+    left: 395.5px;
+    top: 20px;
+    background-color: white;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;border-radius: 5px 0 0 0; 
+    cursor: pointer; 
+   
+}
