@@ -136,3 +136,35 @@ footer .wrapper{
     margin: 10px 0;                     
       
 }
+/*------------------------------------------------------------------------------
+   Modale
+------------------------------------------------------------------------------*/
+
+
+.modale img {
+    width: 800px;
+    height: 600px;
+    cursor: pointer;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+
+.modale {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.modale.visible {
+    display: flex;
+}
